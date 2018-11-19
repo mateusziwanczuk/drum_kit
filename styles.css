@@ -269,6 +269,13 @@ div.programming {
     .hobby__img {
         width:49.6%;
     }
+    .contact {
+        text-align: center;
+        margin: 0;
+    }
+    .contact__button {
+        margin-left: 0;
+    }
 }
 
 @media (orientation: portrait) {
