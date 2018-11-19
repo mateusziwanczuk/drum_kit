@@ -115,7 +115,7 @@ hr {
 }
 
 .hobby__img {
-    width: 49.7%;
+    width: 32vw;
 }
 
 .center__container {
@@ -219,8 +219,7 @@ div.programming {
     background-image: url(img/contact.png);
     background-size: cover; 
     background-attachment: fixed;
-    width: 99.2vw;
-
+    width: 100%;
 }
 
 .contact__button {
@@ -255,5 +254,38 @@ div.programming {
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media (orientation: portrait) {
+.menu__label {
+    position: absolute;
+    width: 10%;
+}
+
+@media (max-width: 1420px) {
+    .hobby__img {
+        width:49.7%;
     }
+}
+
+@media (max-width: 1150px) {
+    .hobby__img {
+        width:49.6%;
+    }
+}
+
+@media (orientation: portrait) {
+    .hobby__img {
+        width: 100%;
+    }
+    .img__me {
+        width:40vw;
+        float: none;
+        margin: 0 12vw;
+    }
+    .o__mnie--h1 {
+        margin: 5% 0 0 0 ;
+        text-align: center;
+    }
+    .project__div {
+        float: none;
+        width: 100%;
+    }
+}
