@@ -23,9 +23,9 @@ body {
 }
 
 nav {
-    position: absolute;
     margin-top: 25vh;
     margin-left: 5vw;
+    position: absolute;
 }
 
 nav a {
@@ -34,10 +34,10 @@ nav a {
     border-radius: 4px;
     color: white;
     display: block;
+    font-size: 1.5rem;
     padding: 3ch;
     text-align: center;
     text-decoration-line: none;
-    font-size: 1.5rem;
     width: 20vw;
 }
 
@@ -75,8 +75,8 @@ nav a:hover {
 /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV MAIN VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
 
 .main {
-    max-width: 65%;
     margin: 10ex auto;
+    max-width: 65%;
     text-align: justify;
 }
 
@@ -101,18 +101,17 @@ nav a:hover {
 
 
 hr {
-    margin-top: 30px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .img__me {
-    width: 25%;
-    min-width: 230px;
-    border-radius: 50%;
     border: 1px solid rgba(226, 225, 225, 0.801);
+    border-radius: 50%;
     float: left;
-    padding: 3px;
     margin: 0 4ch 0 0 ;
+    padding: 3px;
+    width: 25%;
 }
 
 /********************************* HOBBY ************************************/
@@ -126,82 +125,41 @@ hr {
     width: 32vw;
 }
 
-/********************************* SKILS ************************************/
+/********************************* SKILLS ************************************/
 
-.center__container {
+.skills {
+    border: 1px solid rgba(204, 204, 204, 0.932);
+    border-radius: 10px;
+    float: left;
+    margin: 1ch 1ch 1ch 0;
+    padding: 1.5vw 0;
     text-align: center;
+    width: 10vw;
 }
 
-.header3 {
-    margin-top: 2ch;
-    margin-bottom: 1.5ch;
+.skills:hover {
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
-/********************************* LANGUAGES *******************************/
-
-div.languages {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-items: center;
-}
-
-.flag {
-    height: 1.5rem;
-    width: 2.2rem;
+.skills__flag {
     border-radius: 5px;
     box-shadow: 3px 3px 20px -5px rgba(0, 0, 0, 0.6); 
+    height: 1.5rem;
+    width: 2.2rem;
 }
 
-.lang {
-    border: 1px solid rgba(204, 204, 204, 0.932);
-    border-radius: 10px;
-    padding: 1.5vw 2vw;
-}
-
-.lang:hover {
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-/********************************* PROGRAMMING *****************************/
-
-div.programming {
-    display: grid;
-    grid-template-columns: 1.5fr repeat(3, 1fr) 1.5fr;
-    justify-items: center;
-}
-
-.lang__pr {
-    border: 1px solid rgba(204, 204, 204, 0.932);
-    border-radius: 10px;
-    padding: 1.5vw 2vw;
-}
-
-.lang__pr:hover {
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.lang__pro {
+.skills__pro {
     height: 2rem;
     width: 2rem;
 }
 
-/********************************* OTHERS ************************************/
-
-.driver {
-    border: 1px solid rgba(204, 204, 204, 0.932);
-    border-radius: 10px;
-    padding: 1.5vw 2vw;
-    margin: 0 40%;
+.skills__soft {
+    height: 2rem;
+    width: 2rem;
 }
 
-.driver:hover {
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-.car__img {
+.skills__others {
     height: 1.5rem;
     width: 2.2rem;
 }
@@ -213,18 +171,18 @@ div.programming {
 }
 
 .project__div {
+    border-radius: 10px;
     float: left;
+    margin: 0.5% 0.5%;
     overflow: hidden;
     padding: 0;
     width: 49%;
-    border-radius: 10px;
-    margin: 0.5% 0.5%;
 }
 
 .project__img {
-    width: 100%;
-    transition-duration: 1s;
     border-radius: 10px;
+    transition-duration: 1s;
+    width: 100%;
 }
 
 .project__img:hover {
@@ -236,22 +194,22 @@ div.programming {
 /********************************* CONTACT ************************************/
 
 .contact {
+    background-attachment: fixed;
     background-image: url(img/contact.png);
     background-size: cover; 
-    background-attachment: fixed;
     width: 100%;
 }
 
 .contact__button {
-    color: rgb(25, 113, 196);
-    text-transform: uppercase;
     background-color: #000000a1;
-    font-size: 1.5rem;
     border: 1.5px solid rgb(25, 113, 196);
+    color: rgb(25, 113, 196);
+    font-size: 1.5rem;
+    margin-bottom: 10%;
     margin-left: 15%;
     margin-top: 10%;
-    margin-bottom: 10%;
     padding: 2% 4%;
+    text-transform: uppercase;
 }
 
 .contact__button:hover {
@@ -266,14 +224,14 @@ div.programming {
 }
 
 .footer {
-    text-align: center;
-    padding: 5ex;
-    width: 100%;
     background-color: #000000;
     border-top: 3px solid rgb(25, 113, 196);
     color: rgb(25, 113, 196);
-    font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    padding: 5ex;
+    text-align: center;
+    width: 100%;
 }
 
 .menu__label {
@@ -281,7 +239,7 @@ div.programming {
     width: 10%;
 }
 
-/********************************* RESPOSIVITY *******************************/
+/********************************* RESPONSIBITY *******************************/
 
 @media (max-width: 1420px) {
     .hobby__img {
@@ -299,6 +257,44 @@ div.programming {
     }
     .contact__button {
         margin-left: 0;
+    }
+    .skills {
+        padding: 3vw 0;
+        width: 14vw;
+    }  
+}
+
+@media (max-width: 666px) {
+    .skills {
+        padding: 3vw 0;
+        width: 30vw;
+    }  
+    .software {
+        margin-top: 20%;
+    }
+    .others {
+        margin-top: -4vh;
+    }
+    .skills_h {
+        text-align: center;
+    }
+    .contact__button {
+        font-size: 4vw;
+    }
+    .footer {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 12px;
+        line-height: 180%;
+    }
+    .main .o__mnie {
+        max-width: 100%;
+        font-size: 0.8rem;
+        text-align: justify;
     }
 }
 
