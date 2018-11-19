@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    
+}
+
+.header {
+    background-attachment: fixed;
+    background-image: url(img/header.png);
+    background-size: cover; 
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    margin-top: 25vh;
+    margin-left: 5vw;
+}
+
+nav a {
+    background-color: rgba(0, 0, 0, 0.555);
+    border: 1px solid rgb(25, 113, 196);
+    border-radius: 4px;
+    color: white;
+    display: block;
+    padding: 3ch;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 1.5rem;
+    width: 20vw;
+}
+
+nav a:hover {
+    background-color: rgba(25, 113, 196, 0.24);
+    color: white;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.header__h {
+    background-color: rgba(0, 0, 0, 0.877);
+    border: 1px solid rgb(25, 113, 196);
+    border-radius: 10px;
+    color: white;
+    margin-left: 33vw;
+    margin-top: 27vh;
+    line-height: 150%;
+    padding: 18ex 0ch;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+}
+
+.header__h h1 {
+    font-size: 3rem;
+    letter-spacing: 0.7ch;
+}
+
+.header__h span {
+    font-size: 1.5rem;
+    letter-spacing: 1.7ch;
+}
+
+.main {
+    max-width: 65%;
+    margin: 10ex auto;
+    text-align: justify;
+}
+
+.main__h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5ch;
+    text-align: center;
+}
+
+.o__mnie--h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.5ch;
+    margin-left: 45%;
+}
+
+.o__mnie {
+    font-size: 1.2rem;
+    position: relative;
+}
+
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img__me {
+    width: 25%;
+    min-width: 230px;
+    border-radius: 50%;
+    border: 1px solid rgba(226, 225, 225, 0.801);
+    float: left;
+    padding: 3px;
+    margin: 0 4ch 0 0 ;
+}
+
+.hobby h1 {
+    display: inline;
+    float: left;
+}
+
+.hobby__img {
+    width: 49.7%;
+}
+
+.center__container {
+    text-align: center;
+}
+
+.header3 {
+    margin-top: 2ch;
+    margin-bottom: 1.5ch;
+}
+
+div.languages {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
+}
+
+.flag {
+    height: 1.5rem;
+    width: 2.2rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px -5px rgba(0, 0, 0, 0.6); 
+}
+
+.lang {
+    border: 1px solid rgba(204, 204, 204, 0.932);
+    border-radius: 10px;
+    padding: 1.5vw 2vw;
+}
+
+.lang:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+div.programming {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr) 1.5fr;
+    justify-items: center;
+}
+
+.lang__pr {
+    border: 1px solid rgba(204, 204, 204, 0.932);
+    border-radius: 10px;
+    padding: 1.5vw 2vw;
+}
+
+.lang__pr:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.lang__pro {
+    height: 2rem;
+    width: 2rem;
+}
+
+.driver {
+    border: 1px solid rgba(204, 204, 204, 0.932);
+    border-radius: 10px;
+    padding: 1.5vw 2vw;
+    margin: 0 40%;
+}
+
+.driver:hover {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.car__img {
+    height: 1.5rem;
+    width: 2.2rem;
+}
+
+.projects {
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    width: 49%;
+    height: auto%;
+    border-radius: 10px;
+    margin: 2% 0.5%;
+}
+
+.project__img {
+    width: 100%;
+    transition-duration: 1s;
+    display: block;
+    border-radius: 10px;
+}
+
+.project__img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+    }
+}
+
+footer {
+}
+
+footer p {
+    text-align: center;
+    border: 1px solid red;
+}
