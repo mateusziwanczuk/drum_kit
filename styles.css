@@ -12,6 +12,8 @@ body {
     
 }
 
+/********************************* HEADER ************************************/
+
 .header {
     background-attachment: fixed;
     background-image: url(img/header.png);
@@ -70,6 +72,8 @@ nav a:hover {
     letter-spacing: 1.7ch;
 }
 
+/*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV MAIN VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
+
 .main {
     max-width: 65%;
     margin: 10ex auto;
@@ -81,6 +85,8 @@ nav a:hover {
     letter-spacing: 0.5ch;
     text-align: center;
 }
+
+/********************************* ABOUT ME *********************************/
 
 .o__mnie--h1 {
     font-size: 1.5rem;
@@ -109,6 +115,8 @@ hr {
     margin: 0 4ch 0 0 ;
 }
 
+/********************************* HOBBY ************************************/
+
 .hobby h1 {
     display: inline;
     float: left;
@@ -118,6 +126,8 @@ hr {
     width: 32vw;
 }
 
+/********************************* SKILS ************************************/
+
 .center__container {
     text-align: center;
 }
@@ -126,6 +136,8 @@ hr {
     margin-top: 2ch;
     margin-bottom: 1.5ch;
 }
+
+/********************************* LANGUAGES *******************************/
 
 div.languages {
     display: grid;
@@ -151,6 +163,8 @@ div.languages {
     border-radius: 10px;
 }
 
+/********************************* PROGRAMMING *****************************/
+
 div.programming {
     display: grid;
     grid-template-columns: 1.5fr repeat(3, 1fr) 1.5fr;
@@ -173,6 +187,8 @@ div.programming {
     width: 2rem;
 }
 
+/********************************* OTHERS ************************************/
+
 .driver {
     border: 1px solid rgba(204, 204, 204, 0.932);
     border-radius: 10px;
@@ -189,6 +205,8 @@ div.programming {
     height: 1.5rem;
     width: 2.2rem;
 }
+
+/********************************* PROJECTS *********************************/
 
 .projects {
     margin-bottom: 56%;
@@ -215,6 +233,8 @@ div.programming {
     -moz-transform: scale(1.2);
 }
 
+/********************************* CONTACT ************************************/
+
 .contact {
     background-image: url(img/contact.png);
     background-size: cover; 
@@ -240,6 +260,8 @@ div.programming {
 
 }
 
+/********************************* FOOTER ************************************/
+
 .footer {
 }
 
@@ -258,6 +280,8 @@ div.programming {
     position: absolute;
     width: 10%;
 }
+
+/********************************* RESPOSIVITY *******************************/
 
 @media (max-width: 1420px) {
     .hobby__img {
