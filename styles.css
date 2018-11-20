@@ -198,6 +198,7 @@ hr {
     background-image: url(img/contact.png);
     background-size: cover; 
     width: 100%;
+    height: 50vh;
 }
 
 .contact__button {
@@ -205,11 +206,12 @@ hr {
     border: 1.5px solid rgb(25, 113, 196);
     color: rgb(25, 113, 196);
     font-size: 1.5rem;
-    margin-bottom: 10%;
-    margin-left: 15%;
-    margin-top: 10%;
-    padding: 2% 4%;
+    margin-top: 12ch;
+    margin-left: 16%;
+    padding: 3ch 5ch;
     text-transform: uppercase;
+    position: absolute;
+    width: 473px;
 }
 
 .contact__button:hover {
@@ -253,19 +255,11 @@ hr {
     .hobby__img {
         width:49.7%;
     }
-    
 }
 
 @media (max-width: 1150px) {
     .hobby__img {
         width:49.6%;
-    }
-    .contact {
-        text-align: center;
-        margin: 0;
-    }
-    .contact__button {
-        margin-left: 0;
     }
     .skills {
         padding: 3vw 0;
@@ -295,8 +289,19 @@ hr {
     .skills_h {
         text-align: center;
     }
+    .contact {
+        width: 100%;
+        height: 30vh;
+    }
     .contact__button {
-        font-size: 4vw;
+        background-color: #000000a1;
+        border: 1.5px solid rgb(25, 113, 196);
+        color: rgb(25, 113, 196);
+        font-size: 3vw;
+        margin-top: 8ch;
+        margin-left: 8ch;
+        padding: 3ch 8ch;
+        width: 70vw;
     }
     .footer {
         font-size: 4vw;
@@ -340,6 +345,13 @@ hr {
     }
     .header__h span {
         font-size: 3vw;
+    }
+    .contact {
+        width: 100%;
+        height: 20vh;
+    }
+    .contact__button {
+        margin-top: 6ch;
     }
     .footer {
         font-size: 3vw;
