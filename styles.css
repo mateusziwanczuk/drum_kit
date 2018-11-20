@@ -253,6 +253,7 @@ hr {
     .hobby__img {
         width:49.7%;
     }
+    
 }
 
 @media (max-width: 1150px) {
@@ -330,7 +331,7 @@ hr {
         border: 1px solid rgb(25, 113, 196);
         margin-left: 12vw;
         margin-top: 12vh;
-        padding: 12ex 1ch 12ex 1ch;
+        padding: 10vh 1ch 10vh 1ch;
         width: 75%;
     }
     .header__h h1 {
@@ -363,6 +364,43 @@ hr {
     }
     .project__div {
         float: none;
+        width: 100%;
+    }
+}
+
+@media (max-height: 630px) {
+    nav {
+        margin-top: 0;
+        margin-left: 0;
+        position: absolute;
+        margin-top: 60vh;
+    }
+    nav a {
+        background-color: rgba(0, 0, 0, 0.514);
+        border: 1px solid rgb(25, 113, 196);
+        font-size: 3vw;
+        width: 100vw;
+        height: 10vh;
+    }
+    .header__h {
+        background-color: rgba(0, 0, 0, 0.623);
+        border: 1px solid rgb(25, 113, 196);
+        margin-left: 12vw;
+        margin-top: 8vh;
+        padding: 10vh 1ch 10vh 1ch;
+        width: 75%;
+    }
+    .header__h h1 {
+        font-size: 6vw;
+        line-height: 150%;
+    }
+    .header__h span {
+        font-size: 3vw;
+    }
+    .footer {
+        font-size: 3vw;
+        padding: 2ex;
+        text-align: center;
         width: 100%;
     }
 }
