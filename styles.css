@@ -239,6 +239,14 @@ hr {
     width: 10%;
 }
 
+.footer__img {
+    width: 3ch;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 0 0 1%;
+}
+
 /********************************* RESPONSIBITY *******************************/
 
 @media (max-width: 1420px) {
@@ -331,6 +339,12 @@ hr {
     }
     .header__h span {
         font-size: 3vw;
+    }
+    .footer {
+        font-size: 3vw;
+        padding: 2ex;
+        text-align: center;
+        width: 100%;
     }
 }
 
