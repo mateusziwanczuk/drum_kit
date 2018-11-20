@@ -262,6 +262,14 @@ hr {
         padding: 3vw 0;
         width: 14vw;
     }  
+    nav a {
+        font-size: 2vw;
+        padding: 3ch;
+        margin
+    }
+    nav {
+        margin-top: 27vh;
+    }
 }
 
 @media (max-width: 666px) {
@@ -295,6 +303,34 @@ hr {
         max-width: 100%;
         font-size: 0.8rem;
         text-align: justify;
+    }
+    nav {
+        margin-top: 0;
+        margin-left: 0;
+        position: absolute;
+        margin-top: 60vh;
+    }
+    nav a {
+        background-color: rgba(0, 0, 0, 0.514);
+        border: 1px solid rgb(25, 113, 196);
+        font-size: 4vw;
+        width: 100vw;
+        height: 10vh;
+    }
+    .header__h {
+        background-color: rgba(0, 0, 0, 0.623);
+        border: 1px solid rgb(25, 113, 196);
+        margin-left: 12vw;
+        margin-top: 12vh;
+        padding: 12ex 1ch 12ex 1ch;
+        width: 75%;
+    }
+    .header__h h1 {
+        font-size: 6vw;
+        line-height: 150%;
+    }
+    .header__h span {
+        font-size: 3vw;
     }
 }
 
