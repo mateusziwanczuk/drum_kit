@@ -75,7 +75,7 @@ nav a:hover {
 /*VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV MAIN VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV*/
 
 .main {
-    margin: 10ex auto;
+    margin: 6ex auto;
     max-width: 65%;
     text-align: justify;
 }
@@ -84,6 +84,7 @@ nav a:hover {
     font-size: 1.5rem;
     letter-spacing: 0.5ch;
     text-align: center;
+    padding-top: 3ex;
 }
 
 /********************************* ABOUT ME *********************************/
@@ -127,14 +128,36 @@ hr {
 
 /********************************* SKILLS ************************************/
 
+.skills__container {
+    background-attachment: fixed;
+    background-image: url(img/skills.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.skills__padding {
+    padding: 5ch 0 5ch 20ch;
+}
+
+.skills__container span {
+    text-align: center;
+}
+
+.skills__h {
+    margin: 1ch 1ch 1ch 8ch; 
+}
+
 .skills {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     border: 1px solid rgba(204, 204, 204, 0.932);
     border-radius: 10px;
-    float: left;
-    margin: 1ch 1ch 1ch 0;
+    margin: 1ch 1ch 1ch 2ch; 
     padding: 1.5vw 0;
-    text-align: center;
     width: 10vw;
+    background-color: white;
+    
 }
 
 .skills:hover {
