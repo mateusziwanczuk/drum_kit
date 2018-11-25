@@ -246,9 +246,6 @@ hr {
 /********************************* FOOTER ************************************/
 
 .footer {
-}
-
-.footer {
     background-color: #000000;
     border-top: 3px solid rgb(25, 113, 196);
     color: rgb(25, 113, 196);
@@ -269,7 +266,7 @@ hr {
     border: 2px solid white;
     border-radius: 50%;
     padding: 0;
-    margin: 0 0 0 1%;
+    margin: 0 0 0 2%;
 }
 
 /********************************* RESPONSIBITY *******************************/
@@ -285,8 +282,6 @@ hr {
         width:49.6%;
     }
     .skills {
-        padding: 3vw 0;
-        width: 14vw;
     }  
     nav a {
         font-size: 2vw;
@@ -303,14 +298,12 @@ hr {
         padding: 3vw 0;
         width: 30vw;
     }  
-    .software {
-        margin-top: 20%;
-    }
-    .others {
-        margin-top: -4vh;
-    }
-    .skills_h {
+    .skills__padding {
+        padding: 5ch 0 10ch 0ch;
         text-align: center;
+    }
+    .skills__h {
+        margin: 3ch 1ch 1ch 1ch; 
     }
     .contact {
         width: 100%;
@@ -437,5 +430,6 @@ hr {
         padding: 2ex;
         text-align: center;
         width: 100%;
+        
     }
 }
