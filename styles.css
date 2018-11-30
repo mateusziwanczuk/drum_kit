@@ -22,6 +22,14 @@ body {
     width: 100%;
 }
 
+.menu__switch  {
+	display: none
+}
+
+.menu__label  {
+	display: none
+}
+
 nav {
     margin-top: 25vh;
     margin-left: 5vw;
@@ -269,7 +277,7 @@ hr {
     margin: 0 0 0 2%;
 }
 
-/********************************* RESPONSIBITY *******************************/
+/********************************* RESPONSIVITY *******************************/
 
 @media (max-width: 1420px) {
     .hobby__img {
@@ -292,6 +300,59 @@ hr {
         margin-top: 27vh;
     }
 }
+
+/************* MENU / PUSH LEFT ****************
+
+@media (max-width: 800px) {
+    .main {
+        transition: 0.3s all ease-in-out;
+    }
+    .header__h {
+        margin-left: 15vw;
+        margin-top: 20vh;
+        width: 70%;
+    }
+    nav {
+        position: absolute;
+        margin-top: 60vh;
+        flex: none;
+		height: 100%;
+		width: 100%;
+		left: -800px;
+        transition: left 0.3s ease-in-out;
+    }
+    nav a {
+        font-size: 2.5vw;
+        width: 90%;
+        height: 8vh;
+    }
+	.menu__label {
+        cursor: pointer;
+        color:  rgb(25, 113, 196);
+        background-color: rgba(0, 0, 0, 0.692);
+        border-radius: 10px;
+		display: block;
+		font-size: 7vw;
+        left: 10%;
+        padding: 15px;
+		top: 5%;
+		transition: left 0.3s ease-in-out;
+		z-index: 99;
+	}
+	.menu__switch:checked ~ .menu__label {
+		color: white;
+		font-size: 7vw;
+		left: 50px;
+	}
+	.menu__switch:checked ~ nav {
+		left: 0;
+	}
+	.menu__switch:checked ~ .main {
+		-webkit-transform: translateX(800px);
+		transform: translateX(800px);
+	}
+}
+***************************************************/
 
 @media (max-width: 666px) {
     .skills {
@@ -430,6 +491,5 @@ hr {
         padding: 2ex;
         text-align: center;
         width: 100%;
-        
     }
 }

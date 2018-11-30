@@ -4,42 +4,36 @@
         <meta charset="UTF-8">
         <title>Mateusz Iwańczuk - portfolio</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-            <!-- for mobile -->
     </head>
 
     <body>
 
-        <!-- ***************   NAVIGATION   *************** -->
-            
+        <!--  NAVIGATION -->            
         <section>
-            <i class="fas fa-bars"></i>
+            <input type="checkbox" class="menu__switch" id="menu">
+		    <label class="menu__label" for="menu"><i class="fas fa-bars"></i></label>
             <nav>
                 <a href="#o__mnie">O mnie</a>
                 <a href="#umiejetnosci">Umiejętności</a>
                 <a href="#projekty">Projekty</a>
                 <a href="#kontakt">Kontakt</a>            
             </nav>
-    
         </section>
 
-        <!-- ***************   HERO   *************** -->
-
+        <!--  HERO -->
         <section class="header">
-
             <div class="header__h">
                 <h1>Mateusz Iwańczuk<br><br><span>&lt; portfolio /></span></h1>
             </div>
-      
         </section>
 
-        <!-- ***************   MAIN WRAPPER   *************** -->
-
+        <!--  MAIN WRAPPER  -->
         <section class="main">
 
-            <!-- ***************   ABOUT ME   *************** -->
-            
+        <!--  ABOUT ME  -->
             <br>
             <div class="o__mnie">
                 <img src="img/CV__foto.png" class="img__me" alt="zdjęcie profilowe">
@@ -55,20 +49,16 @@
             </div>
             <br><br>
 
-            <!-- ***************   HOBBY   **************** -->
-
+        <!--  HOBBY  -->
             <h1 class="main__h1">W WOLNYM CZASIE</h1>
             <br>
-            
                 <img src="img/hobby_2.png" class="hobby__img" alt="moje hobby - podróże, wspinaczka, perkusja">
                 <img src="img/hobby_3.png" class="hobby__img" alt="moje hobby - podróże, wspinaczka, perkusja">
-
         </section>
 
-            <!-- ***************   SKILLS   *************** -->
+        <!--  SKILLS  -->
             <div class="skills__container" id="umiejetnosci">
                 <br>
-
                 <h1 class="main__h1">UMIEJĘTNOŚCI</h1>
                 <div class="skills__padding">
                     <div class="languages"><h3 class="skills__h">Języki obce:</h3>
@@ -77,60 +67,43 @@
                         <div class="skills"><span><img src="img/esp.png" class="skills__flag" alt="flaga"><br>hiszpański</span></div>
                         <div class="skills"><span><img src="img/por.png" class="skills__flag" alt="flaga"><br>portugalski</span></div>
                     </div>
-
                     <div class="programming"><h3 class="skills__h">Języki programowania:</h3>
                         <div class="skills"><span><img src="img/html.png" class="skills__pro" alt="logo"><br>HTML 5</span></div>
                         <div class="skills"><span><img src="img/css.png" class="skills__pro" alt="logo"><br>CSS 3</span></div>
                         <div class="skills"><span><img src="img/js.png" class="skills__pro" alt="logo"><br>JavaScript</span></div>
                     </div>
-
                     <div class="software"><h3 class="skills__h">Oprogramowanie:</h3>
                         <div class="skills"><span><img src="img/git.svg" class="skills__soft" alt="logo"><br>GIT</span></div>
                         <div class="skills"><span><img src="img/jira.jpg" class="skills__soft" alt="logo"><br>JIRA</span></div>
 
-                    </div>        
-                            
+                    </div>                   
                     <div class="others"><h3 class="skills__h">Inne:</h3>
                         <div class="skills"><span><img src="img/car.png" class="skills__others" alt="auto"><br>prawo jazdy</span></div>
                     </div>  
                 </div>    
             </div>
 
-            <!-- ***************   PROJECTS   *************** -->
+        <!--  PROJECTS  -->
             <section class="main">
                 <section class="projects" id="projekty">
-
                 <h1 class="main__h1">PROJEKTY</h1>
-
                 <br>
                 <div class="project__div"><a href="index.html"><img src="img/project_1.png" alt="screen portfolio" class="project__img"></a></div>
                 <div class="project__div"></div>
-                
+                </section>
             </section>
-        </section>
 
-        <!-- ***************   CONTACT   *************** -->
+        <!--  CONTACT  -->
         <section>
-
             <div class="contact" id="kontakt">
-
                 <a href="mailto:iwanczukmateusz@gmail.com?subject=tytuł_listu">
                     <span class="contact__button">Skontaktuj się ze mną :)</span>
                 </a>
-
             </div>
-
         
-
-        <!-- ***************   FOOTER   *************** -->
-
+        <!--  FOOTER  -->
         <section class="footer">
             <p>Designed by Mateusz Iwańczuk<a href="https://github.com/mateuszmatzh"><img src="img/github.png" class="footer__img" alt="github"></a><a href="https://www.linkedin.com/in/mateusz-iwa%C5%84czuk-4796a7128/"><img src="img/linkedin.png" class="footer__img" alt="linkedin"></a></p>    
         </section>
-        
-        </section>
-
-
-
     </body>
 </html>
