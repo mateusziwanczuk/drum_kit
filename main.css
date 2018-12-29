@@ -41,19 +41,23 @@ a {
     text-shadow: 5px 5px 10px black; 
 }
 
+.container {
+    width: 85vw;
+    text-align: center;
+}
+
 .key {
     background: rgba(0, 0, 0, 0.76);
     border: .2rem solid #6A0E1B;
     border-radius: .5rem;
     color: white;
     float: left;
-    font-size: 1rem;
     margin: 5vh 1rem;
     padding: 0.5rem 0.25rem;
     text-align: center;
     text-shadow: 0 0 .5rem black;
     transition: all .07s ease;
-    width: 9rem;
+    width: 6rem;
 }
 
 .playing {
